@@ -1,0 +1,230 @@
+{
+  "fecha_validacion": "2025-05-21T06:12:13.331532",
+  "archivos_procesados": [
+    "/home/ubuntu/upload/2025. C\u00e1lculo de recursos PMR TFS_MARZO.xlsx",
+    "/home/ubuntu/upload/2025. Calculo de recursos PMR FUE_MARZO.xlsx"
+  ],
+  "resultados_tfs": {
+    "status": "success",
+    "message": "Importaci\u00f3n completada con \u00e9xito",
+    "resultados": {
+      "aeropuertos": {
+        "creados": 2,
+        "actualizados": 0,
+        "errores": 0
+      },
+      "sr_historico": {
+        "creados": 0,
+        "actualizados": 0,
+        "errores": 0
+      },
+      "recursos": {
+        "creados": 0,
+        "actualizados": 0,
+        "errores": 0
+      },
+      "empleados": {
+        "creados": 164,
+        "actualizados": 2,
+        "errores": 61
+      },
+      "tiempos_asistencias": {
+        "creados": 0,
+        "actualizados": 0,
+        "errores": 0
+      },
+      "vacaciones": {
+        "creados": 0,
+        "actualizados": 0,
+        "errores": 0
+      }
+    },
+    "errores": [
+      "No se encontraron datos en la hoja de Recursos",
+      "No se encontraron datos en la hoja de Vacaciones",
+      "No se encontraron datos en la hoja de Recursos",
+      "Error al procesar empleado (Item 1.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 2.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 3.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 4.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 5.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 6.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 7.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 8.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 9.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 10.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 11.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 12.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 13.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 14.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 15.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 16.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 17.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 18.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 19.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 20.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 21.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 22.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 23.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 24.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 25.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 26.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 27.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 28.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 29.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 30.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 31.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 32.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 33.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 34.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 35.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 36.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 37.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 38.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 39.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 40.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 41.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 42.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 43.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 44.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 45.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 46.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 47.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 48.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 49.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 50.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 51.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 52.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 53.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 54.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 55.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 56.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 57.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 58.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 59.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 60.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 61.0): 'CONTRATO'",
+      "No se encontraron datos en la hoja de Vacaciones"
+    ]
+  },
+  "resultados_fue": {
+    "status": "success",
+    "message": "Importaci\u00f3n completada con \u00e9xito",
+    "resultados": {
+      "aeropuertos": {
+        "creados": 2,
+        "actualizados": 0,
+        "errores": 0
+      },
+      "sr_historico": {
+        "creados": 0,
+        "actualizados": 0,
+        "errores": 0
+      },
+      "recursos": {
+        "creados": 0,
+        "actualizados": 0,
+        "errores": 0
+      },
+      "empleados": {
+        "creados": 164,
+        "actualizados": 2,
+        "errores": 61
+      },
+      "tiempos_asistencias": {
+        "creados": 0,
+        "actualizados": 0,
+        "errores": 0
+      },
+      "vacaciones": {
+        "creados": 0,
+        "actualizados": 0,
+        "errores": 0
+      }
+    },
+    "errores": [
+      "No se encontraron datos en la hoja de Recursos",
+      "No se encontraron datos en la hoja de Vacaciones",
+      "No se encontraron datos en la hoja de Recursos",
+      "Error al procesar empleado (Item 1.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 2.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 3.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 4.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 5.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 6.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 7.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 8.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 9.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 10.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 11.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 12.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 13.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 14.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 15.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 16.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 17.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 18.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 19.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 20.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 21.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 22.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 23.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 24.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 25.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 26.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 27.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 28.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 29.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 30.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 31.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 32.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 33.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 34.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 35.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 36.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 37.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 38.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 39.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 40.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 41.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 42.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 43.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 44.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 45.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 46.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 47.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 48.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 49.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 50.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 51.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 52.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 53.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 54.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 55.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 56.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 57.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 58.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 59.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 60.0): 'CONTRATO'",
+      "Error al procesar empleado (Item 61.0): 'CONTRATO'",
+      "No se encontraron datos en la hoja de Vacaciones"
+    ]
+  },
+  "conteo_registros": {
+    "aeropuertos": 2,
+    "empleados_tfs": 164,
+    "empleados_fue": 0,
+    "sr_historico": 0,
+    "recursos": 0,
+    "tiempos_asistencias": 0,
+    "vacaciones": 0
+  },
+  "validacion_campos": {
+    "empleados_con_valor_contrato": 164,
+    "empleados_con_mes_parada": 86,
+    "empleados_con_mes_llamamiento": 80,
+    "empleados_con_horas_complementarias": 134,
+    "empleados_con_horas_complementarias_info": 0,
+    "empleados_con_meses_adicionales": 0
+  }
+}

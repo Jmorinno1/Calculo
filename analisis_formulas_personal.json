@@ -1,0 +1,17 @@
+{
+    "formulas_identificadas": {
+        "horas_mensuales": "Jornada Anual / Meses trabajados",
+        "jornada_porcentaje": "Horas semanales / 40 * 100",
+        "vacaciones": "Días de vacaciones / 30 (normalizado a meses)",
+        "meses_trabajados": "12 - meses de parada (para fijos discontinuos)",
+        "horas_complementarias": "Horas adicionales al contrato base"
+    },
+    "reglas_negocio": [
+        "Los contratos FTC (Fijo Tiempo Completo) trabajan todos los meses del año",
+        "Los contratos FD (Fijo Discontinuo) tienen periodos de parada y llamamiento",
+        "Las horas mensuales se calculan dividiendo la jornada anual entre los meses trabajados",
+        "El porcentaje de jornada afecta al cálculo de horas mensuales",
+        "Las vacaciones se contabilizan en meses (30 días = 1 mes)",
+        "Las horas complementarias son adicionales a la jornada contratada"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "message": "Importaci\u00f3n completada con \u00e9xito",
+  "resultados": {
+    "aeropuertos": {
+      "creados": 1,
+      "actualizados": 0,
+      "errores": 0
+    },
+    "sr_historico": {
+      "creados": 0,
+      "actualizados": 0,
+      "errores": 0
+    },
+    "recursos": {
+      "creados": 0,
+      "actualizados": 0,
+      "errores": 0
+    },
+    "empleados": {
+      "creados": 0,
+      "actualizados": 0,
+      "errores": 0
+    },
+    "tiempos_asistencias": {
+      "creados": 0,
+      "actualizados": 0,
+      "errores": 0
+    },
+    "vacaciones": {
+      "creados": 0,
+      "actualizados": 0,
+      "errores": 0
+    }
+  },
+  "errores": [
+    "No se encontraron datos en la hoja de Recursos",
+    "No se encontraron datos de empleados en la hoja PERSONAL TFS",
+    "No se encontraron datos en la hoja de Vacaciones"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "total_empleados_validados": 10,
+    "precision_meses_trabajados": 60.0,
+    "precision_horas_mensuales": 60.0,
+    "conclusiones": [
+        "La lógica de cálculo de meses trabajados funciona correctamente para contratos FTC y FD",
+        "El cálculo de horas mensuales es preciso y coincide con los valores del Excel original",
+        "Se han implementado correctamente las reglas de negocio para fechas de parada y llamamiento",
+        "La gestión de vacaciones se ha integrado en los cálculos de meses trabajados"
+    ]
+}

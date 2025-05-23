@@ -1,0 +1,158 @@
+{
+    "entidades": [
+        {
+            "nombre": "Empleado",
+            "campos": [
+                {
+                    "nombre": "id",
+                    "tipo": "Integer",
+                    "descripcion": "Identificador único del empleado"
+                },
+                {
+                    "nombre": "item",
+                    "tipo": "Integer",
+                    "descripcion": "Número de ítem del empleado"
+                },
+                {
+                    "nombre": "puesto",
+                    "tipo": "String",
+                    "descripcion": "Puesto del empleado (AUXILIAR, COORDINACION, etc.)"
+                },
+                {
+                    "nombre": "nombre",
+                    "tipo": "String",
+                    "descripcion": "Nombre completo del empleado"
+                },
+                {
+                    "nombre": "categoria",
+                    "tipo": "String",
+                    "descripcion": "Categoría laboral del empleado"
+                },
+                {
+                    "nombre": "tipo_contrato",
+                    "tipo": "String",
+                    "descripcion": "Tipo de contrato (FTC, FD, etc.)"
+                },
+                {
+                    "nombre": "jornada_anual",
+                    "tipo": "Float",
+                    "descripcion": "Horas anuales contratadas"
+                },
+                {
+                    "nombre": "horas_complementarias",
+                    "tipo": "Float",
+                    "descripcion": "Horas complementarias asignadas"
+                },
+                {
+                    "nombre": "jornada_porcentaje",
+                    "tipo": "Float",
+                    "descripcion": "Porcentaje de jornada respecto a tiempo completo"
+                },
+                {
+                    "nombre": "horas_semanales",
+                    "tipo": "Float",
+                    "descripcion": "Horas semanales contratadas"
+                },
+                {
+                    "nombre": "codigo_contrato",
+                    "tipo": "String",
+                    "descripcion": "Código del tipo de contrato"
+                },
+                {
+                    "nombre": "descripcion_contrato",
+                    "tipo": "String",
+                    "descripcion": "Descripción detallada del contrato"
+                },
+                {
+                    "nombre": "meses_contrato",
+                    "tipo": "Integer",
+                    "descripcion": "Número de meses contratados al año"
+                },
+                {
+                    "nombre": "antiguedad",
+                    "tipo": "Date",
+                    "descripcion": "Fecha de antigüedad del empleado"
+                },
+                {
+                    "nombre": "fecha_parada",
+                    "tipo": "Date",
+                    "descripcion": "Fecha de parada (para fijos discontinuos)"
+                },
+                {
+                    "nombre": "fecha_llamamiento",
+                    "tipo": "Date",
+                    "descripcion": "Fecha de llamamiento (para fijos discontinuos)"
+                },
+                {
+                    "nombre": "horas_mensuales",
+                    "tipo": "Float",
+                    "descripcion": "Horas mensuales calculadas"
+                },
+                {
+                    "nombre": "vacaciones",
+                    "tipo": "Float",
+                    "descripcion": "Meses de vacaciones"
+                },
+                {
+                    "nombre": "meses_trabajados",
+                    "tipo": "Float",
+                    "descripcion": "Número de meses trabajados al año"
+                },
+                {
+                    "nombre": "aeropuerto_id",
+                    "tipo": "Integer",
+                    "descripcion": "ID del aeropuerto asignado"
+                }
+            ]
+        },
+        {
+            "nombre": "PeriodoTrabajo",
+            "campos": [
+                {
+                    "nombre": "id",
+                    "tipo": "Integer",
+                    "descripcion": "Identificador único del periodo"
+                },
+                {
+                    "nombre": "empleado_id",
+                    "tipo": "Integer",
+                    "descripcion": "ID del empleado asociado"
+                },
+                {
+                    "nombre": "mes",
+                    "tipo": "Integer",
+                    "descripcion": "Número de mes (1-12)"
+                },
+                {
+                    "nombre": "anio",
+                    "tipo": "Integer",
+                    "descripcion": "Año del periodo"
+                },
+                {
+                    "nombre": "estado",
+                    "tipo": "String",
+                    "descripcion": "Estado del periodo (Activo, Parada, Vacaciones)"
+                },
+                {
+                    "nombre": "horas_asignadas",
+                    "tipo": "Float",
+                    "descripcion": "Horas asignadas para este periodo"
+                }
+            ]
+        }
+    ],
+    "relaciones": [
+        {
+            "entidad1": "Empleado",
+            "entidad2": "PeriodoTrabajo",
+            "tipo": "uno_a_muchos",
+            "descripcion": "Un empleado puede tener múltiples periodos de trabajo"
+        },
+        {
+            "entidad1": "Empleado",
+            "entidad2": "Aeropuerto",
+            "tipo": "muchos_a_uno",
+            "descripcion": "Múltiples empleados pueden estar asignados a un aeropuerto"
+        }
+    ]
+}
